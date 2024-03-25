@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding-top: 100px;
+    text-align: center;
+}
+a{
+    font-size: 40px;
+    font-family: fantasy;
+    color: blue;
+}
+.menu{
+    position: fixed;
+    background-image: linear-gradient(left , red , blue);
+    width: 50%;
+    margin-top: auto;
+    top: auto;
+    z-index: 10;
+}
+.links{
+    display: inline;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+a{
+    color: rgb(red, green, blue);
+    text-decoration: none;
+}
+.links:hover{
+    text-decoration: underline;
+    font-size: 25px;
+}
+a:hover{
+    color: lime;
+}
